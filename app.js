@@ -8,6 +8,7 @@ var bodyParser = require('body-parser');
 var routes = require('./routes/index');
 var users = require('./routes/users');
 var settings = require('./settings');
+var flash = require('connect-flash');
 var session = require('express-session');
 var MongoStore = require('connect-mongo')(session);
 
@@ -28,10 +29,13 @@ app.use(session({
     secret: settings.cookieSecret,
     key: settings.db,//cookie name
     cookie: {maxAge: 1000 * 60 * 60 * 24 * 30},//30 days
+    resave: true,
+    saveUninitialized: true,
     store: new MongoStore({
-        url: 'mongodb://localhost/blog'
+        url: 'mongodb://localhost:27017/blog'
     })
 }));
+app.use(flash());
 
 routes(app);
 
