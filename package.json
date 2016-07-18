@@ -6,7 +6,12 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
+    "angular": "^1.5.7",
+    "angular-animate": "^1.5.7",
+    "angular-route": "^1.5.7",
+    "angular-touch": "^1.5.7",
     "body-parser": "~1.15.1",
+    "bootstrap": "^3.3.6",
     "connect-flash": "^0.1.1",
     "connect-mongo": "^1.2.1",
     "cookie-parser": "~1.4.3",
