@@ -1,9 +1,7 @@
 /* inspired by http://yihui.name/cn/ */
 *{padding:0;margin:0;}
 body{
-    width:600px;
-    margin:2em auto;
-    padding:0 2em;
+    width:100%;
     font-size:14px;
     font-family:"Microsoft YaHei";
 }

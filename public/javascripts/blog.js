@@ -6,9 +6,12 @@ var router = function ($stateProvider, $urlRouterProvider) {
     $stateProvider.state('index', {
         url: '/',
         templateUrl: '../partials/index.html'
-    }).state('reg', {
+    }).state('index.reg', {
         url:'reg',
         templateUrl: '../partials/register.html'
+    }).state('index.login', {
+        url:'login',
+        templateUrl: '../partials/login.html'
     });
     $urlRouterProvider.otherwise('/');
 };
