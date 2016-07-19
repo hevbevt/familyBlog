@@ -5,10 +5,11 @@ var blog = angular.module('blog',['ui.router', 'ui.bootstrap']);
 var router = function ($stateProvider, $urlRouterProvider) {
     $stateProvider.state('index', {
         url: '/',
-        templateUrl: '/base/index.html'
+        templateUrl: '../partials/index.html'
     }).state('reg', {
-
+        url:'reg',
+        templateUrl: '../partials/register.html'
     });
-    $urlRouterProvider.otherwise('/list');
+    $urlRouterProvider.otherwise('/');
 };
 blog.config(['$stateProvider', '$urlRouterProvider', router]);
