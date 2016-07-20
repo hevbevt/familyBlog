@@ -12,6 +12,9 @@ var flash = require('connect-flash');
 var session = require('express-session');
 var MongoStore = require('connect-mongo')(session);
 
+var mongoose = require('mongoose');
+var Bear = require('./models/bear');
+
 
 
 var app = express();
@@ -39,10 +42,41 @@ app.use(session({
 }));
 app.use(flash());
 
+mongoose.connect('mongodb://localhost:27017/blog');
+
 routes(app);
+
+router.use(function (req, res, next) {
+    console.log('Something is happening.');
+    next();
+});
+
 router.get('/', function (req, res) {
     res.json({ message: 'hooray! welcome to our api'});
 });
+
+router.route('/bears')
+    .post(function (req, res) {
+
+        var bear = new Bear();
+        bear.name = req.body.name;
+
+        bear.save(function (err) {
+            if (err) {
+                res.send(err);
+            }
+            res.json({
+                message: 'Bear created!'
+            })
+        })
+    })
+    .get(function (req, res) {
+        Bear.find(function (err, bears) {
+            if (err) {
+                res.send
+            }
+        })
+    })
 
 app.use('/api', router);
 
