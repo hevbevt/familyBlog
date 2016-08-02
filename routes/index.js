@@ -1,5 +1,4 @@
-var crypto = require('crypto'),
-    User = require('../models/user.js');
+/*index.ejs渲染*/
 module.exports = function (app) {
     app.get('/', function (req, res) {
         res.render('index', {

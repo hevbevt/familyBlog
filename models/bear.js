@@ -2,8 +2,8 @@
  * Created by duanhe on 16/7/19.
  */
 var mongoose = require('mongoose');
-var Schma = mongoose.Schema;
-var BearSchma = new Schma({
+var Schema = mongoose.Schema;
+var BearSchema = new Schema({
     name : String
 });
-module.exports = mongoose.model('Bear', BearSchma);
+module.exports = mongoose.model('Bear', BearSchema);

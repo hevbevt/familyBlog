@@ -1,7 +1,25 @@
-<form method="post">
-    用户名：  <input type="text" name="name"/><br />
-    密码：    <input type="password" name="password"/><br />
-    确认密码：<input type="password" name="password-repeat"/><br />
-    邮箱：    <input type="email" name="email"/><br />
-    <input type="submit" value="注册"/>
+<div class="login-box">
+<form class="form-horizontal" method="post" ng-submit="register()">
+    <div class="form-group">
+        <label for="regName">用户名： </label>
+        <input class="form-control" type="text" id="regName" name="name"
+               ng-model="regName"/>
+    </div>
+    <div class="form-group">
+        <label for="regPassword">密码： </label>
+        <input class="form-control" type="password" id="regPassword" name="password"
+               ng-model="regPassword"/>
+    </div>
+    <div class="form-group">
+        <label for="regPasswordRepeat">确认密码： </label>
+        <input class="form-control" type="password" id="regPasswordRepeat" name="password-repeat"
+               ng-model="regPasswordRepeat"/>
+    </div>
+    <div class="form-group">
+        <label for="regEmail">邮箱： </label>
+        <input class="form-control" type="email" id="regEmail" name="email"
+               ng-model="regEmail"/>
+    </div>
+    <button class="btn btn-default" type="submit">注册</button>
 </form>
+</div>
