@@ -13,6 +13,7 @@ var router = function ($stateProvider, $urlRouterProvider) {
         templateUrl: '../partials/register.html'
     }).state('index.login', {
         url:'login',
+        controller: 'loginCtrl',
         templateUrl: '../partials/login.html'
     });
     $urlRouterProvider.otherwise('/');
