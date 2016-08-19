@@ -44,7 +44,7 @@ gulp.task('build-dep-js', function () {
         .pipe(gulp.dest('public/js/lib'));
 });
 gulp.task('build-js', function () {
-    return gulp.src('src/js/*.js')
+    return gulp.src('src/js/frontend/**/*.js')
         .pipe(sourcemaps.init())
         .pipe(concat('bundle.js'))
         .pipe(gutil.env.type === 'production' ? uglify() : gutil.noop())
@@ -58,7 +58,11 @@ gulp.task('copyPartials', function() {
 
 gulp.task('build',['build-css', 'build-sass','build-dep-js', 'build-js', 'copyPartials']);
 
+//watch html, js, sass change and apply.
 gulp.task('watch', function () {
-    gulp.watch('src/js/**/*.js', ['jshint']);
-    gulp.watch('src/sass/**/*.scss', ['build-css']);
+    gulp.watch('src/js/frontend/**/*.js', ['build-js']);
+    gulp.watch('src/partials/*.html', ['copyPartials']);
+    gulp.watch('src/sass/**/*.scss', ['build-sass']);
 });
+
+gulp.task('buildWatch', ['build', 'watch']);

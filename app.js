@@ -6,20 +6,16 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
 var routes = require('./routes/index');
-var users = require('./routes/users');
+var router = require('./routes/router');
 var settings = require('./settings');
 var flash = require('connect-flash');
 var session = require('express-session');
 var MongoStore = require('connect-mongo')(session);
 
-var mongoose = require('mongoose');
-var Bear = require('./models/bear');
-
 
 
 
 var app = express();
-var router = express.Router();
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
@@ -42,78 +38,16 @@ app.use(session({
     })
 }));
 app.use(flash());
-
+var mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost:27017/blog');
+var db = mongoose.connection;
+db.on('error', console.error.bind(console, 'connection error:'));
+db.once('open', function () {
+    console.log('db connect successful.')
+});
 
 routes(app);
-
-router.use(function (req, res, next) {
-    console.log('Something is happening.');
-    next();
-});
-
-router.get('/', function (req, res) {
-    res.json({ message: 'hooray! welcome to our api'});
-});
-
-router.route('/bears')
-    .post(function (req, res) {
-
-        var bear = new Bear();
-        bear.name = req.body.name;
-
-        bear.save(function (err) {
-            if (err) {
-                res.send(err);
-            }
-            res.json({
-                message: 'Bear created!'
-            })
-        })
-    })
-    .get(function (req, res) {
-        Bear.find(function (err, bears) {
-            if (err) {
-                res.send(err);
-            }
-            res.json(bears);
-        })
-    });
-
-router.route('/bears/:bear_id')
-    .get(function (req, res) {
-        Bear.findById(req.params.bear_id, function (err, bear) {
-            if (err) {
-                res.send(err);
-            }
-            res.json(bear);
-        })
-    })
-    .put(function (req, res) {
-        Bear.findById(req.params.bear_id, function (err, bear) {
-            if (err) {
-                res.send(err);
-            }
-            bear.name = req.body.name;
-            bear.save(function (err) {
-                if (err) {
-                    res.send(err);
-                }
-                res.json({ message: 'Bear updated!'});
-            })
-        })
-    })
-    .delete(function (req, res) {
-        Bear.remove({
-            _id: req.params.bear_id
-        }, function (err) {
-            if (err) {
-                res.send(err);
-            }
-            res.send({ message: 'Successfully deleted'});
-        })
-    })
-
+// 接口初始化
 app.use('/api', router);
 
 // catch 404 and forward to error handler

@@ -1,6 +1,16 @@
 /**
  * Created by duanhe on 16/7/16.
  */
+var mongoose = require('mongoose');
+var Schema = mongoose.Schema;
+var userSchema = new Schema({
+    name: String,
+    password: String,
+    email: String
+}); 
+var User = mongoose.model('User', userSchema);
+module.exports = User;
+/*
 var mongodb = require('./db');
 
 function User(user) {
@@ -61,4 +71,4 @@ User.get = function (name, callback) {
             });
         })
     })
-};
+};*/

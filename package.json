@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "prestart": "gulp build",
+    "start": "node ./bin/www",
+    "debug": "node --debug=5858 ./bin/www"
   },
   "dependencies": {
     "angular": "^1.5.7",
