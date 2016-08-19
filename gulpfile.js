@@ -40,7 +40,8 @@ gulp.task('build-dep-js', function () {
         'src/js/lib/angular-touch.js',
         'src/js/lib/ui-bootstrap.js',
         'src/js/lib/angular-ui-router.js',
-        'src/js/lib/bootstrap.js'])
+        'src/js/lib/bootstrap.js',
+        'node_modules/ag-grid/dist/ag-grid.js'])
         .pipe(gulp.dest('public/js/lib'));
 });
 gulp.task('build-js', function () {

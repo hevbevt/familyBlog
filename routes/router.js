@@ -41,7 +41,7 @@ router.route('/reg')
                     errorMsg: err
                 });
             }
-            if (user) {
+            if (user.isNew) {
                 return res.send({
                     errorCode: 403,
                     errorMsg: '用户名已注册'
@@ -49,11 +49,17 @@ router.route('/reg')
             }
             newUser.save(function(err, newUser) {
                 if (err) {
-                    return res.redirect('/reg');
+                    return res.send({
+                        errorCode: 500,
+                        errorMsg: err
+                    });
                 }
                 if (newUser) {
                     req.session.user = newUser;
-                    return res.redirect('/');
+                    return res.send({
+                        data: 'success',
+                        ret: true
+                    });
                 }
             })
         });
@@ -78,7 +84,8 @@ router.route('/login')
             }
             req.session.user = user;
             res.send({
-                
+                data: 'success',
+                ret: true
             });
         });
     })

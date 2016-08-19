@@ -11,6 +11,7 @@ var registerCtrl = function ($scope, Svc) {
     $scope.register = function () {
         Svc.register(param).then(function (resp) {
             console.log('reg success');
+            location.href = "/login";
         }, function (err) {
             console.log(err);
         })

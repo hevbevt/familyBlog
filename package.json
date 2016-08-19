@@ -8,6 +8,7 @@
     "debug": "node --debug=5858 ./bin/www"
   },
   "dependencies": {
+    "ag-grid": "^5.2.0",
     "angular": "^1.5.7",
     "angular-animate": "^1.5.7",
     "angular-route": "^1.5.7",
