@@ -33,7 +33,7 @@ router.route('/reg')
             password: password,
             email: req.body.email
         });
-        User.findOne({name: name}, function(err, user) {
+        User.findOne({ name: name }, function(err, user) {
             if (err) {
                 console.log(err);
                 return res.send({
@@ -58,6 +58,42 @@ router.route('/reg')
             })
         });
     });
+
+router.route('/login')
+    .post(function(req, res) {
+        var md5 = crypto.createHash('md5'),
+            password = md5.update(req.body.password).digest('hex');
+        User.findOne({ name: req.body.name }, function(err, user) {
+            if (!user) {
+                return res.send({
+                    errorCode: 403,
+                    errorMsg: '用户名不存在'
+                })
+            }
+            if (user.password !== password) {
+                return res.send({
+                    errorCode: 403,
+                    errorMsg: '密码错误'
+                })
+            }
+            req.session.user = user;
+            res.send({
+                
+            });
+        });
+    })
+    .get(function(req, res){
+        res.render('login', {
+            title: '登陆',
+            user: req.session.user
+        })
+    });
+
+router.route('/logout')
+    .get(function(req, res) {
+        req.session.user = null;
+        res.redirect('/');
+    })
 
 router.route('/bears')
     .post(function(req, res) {

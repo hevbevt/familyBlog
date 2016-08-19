@@ -16,6 +16,18 @@ var RegisterSvc = function (HTTP) {
                 })
             };
             return HTTP.svc(config);
+        },
+        login: function (name, password) {
+            var config = {
+                method: 'POST',
+                url: '/api/login',
+                headers: {'Content-Type': 'application/x-www-form-urlencoded'},
+                data: $param({
+                    'name': name, 
+                    'password': password
+                })
+            }
+            return HTTP.svc(config);
         }
     }
 };
