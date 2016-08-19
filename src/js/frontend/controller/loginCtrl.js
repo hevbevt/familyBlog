@@ -1,9 +1,9 @@
 var loginCtrl = function($scope, Svc) {
-    var name = $scope.name;
-    var password = $scope.password;
+   
     $scope.login = function() {
-        Svc.login(name, password).then(function(resp){
-            
+        Svc.login($scope.name, $scope.password).then(function(resp){
+            console.log('login success');
+            location.href = '/#/grid';
         }, function(err) {
             console.log(err);
         })

@@ -12,10 +12,10 @@ blog.factory('HTTP', ['$http','$q', function($http,$q){
                     else deferred.resolve(resp);
                 }else{
                     if(resp) deferred.reject(resp.errorMsg);
-                    else deferred.reject(Message.serverError);
+                    else deferred.reject('服务器错误');
                 }
             }).error(function(){
-                deferred.reject(Message.serverError);
+                deferred.reject('服务器错误');
             });
             return deferred.promise;
         },

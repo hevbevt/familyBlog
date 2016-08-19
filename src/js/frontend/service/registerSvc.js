@@ -22,7 +22,7 @@ var RegisterSvc = function (HTTP) {
                 method: 'POST',
                 url: '/api/login',
                 headers: {'Content-Type': 'application/x-www-form-urlencoded'},
-                data: $param({
+                data: $.param({
                     'name': name, 
                     'password': password
                 })

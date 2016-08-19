@@ -41,7 +41,7 @@ router.route('/reg')
                     errorMsg: err
                 });
             }
-            if (user.isNew) {
+            if (user) {
                 return res.send({
                     errorCode: 403,
                     errorMsg: '用户名已注册'

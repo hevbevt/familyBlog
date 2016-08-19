@@ -34,7 +34,8 @@ gulp.task('build-css', function () {
         .pipe(gulp.dest('public/stylesheets'));
 });
 gulp.task('build-dep-js', function () {
-    return gulp.src(['src/js/lib/jquery.js',
+    return gulp.src([
+        'node_modules/.npminstall/jquery/1.11.3/jquery/dist/jquery.js',
         'src/js/lib/angular.js',
         'src/js/lib/angular-animate.js',
         'src/js/lib/angular-touch.js',
