@@ -16,10 +16,6 @@ var router = function ($stateProvider, $urlRouterProvider) {
         url:'login',
         controller: 'loginCtrl',
         templateUrl: '../partials/login.html'
-    }).state('index.grid', {
-        url:'grid',
-        templateUrl: '../partials/grid.html',
-        controller: 'gridCtrl'
     });
     $urlRouterProvider.otherwise('/');
 };
