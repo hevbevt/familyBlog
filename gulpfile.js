@@ -33,6 +33,19 @@ gulp.task('build-css', function () {
         .pipe(sourcemaps.write())
         .pipe(gulp.dest('public/stylesheets'));
 });
+gulp.task('build-dep-css', function () {
+    return gulp.src([
+        'node_modules/font-awesome/css/font-awesome.css'
+        ])
+        .pipe(gulp.dest('public/stylesheets'));
+});
+gulp.task('build-fonts', function () {
+    return gulp.src([
+            'node_modules/bootstrap/dist/fonts/*',
+            'node_modules/font-awesome/fonts/*'
+        ])
+        .pipe(gulp.dest('public/fonts'));
+});
 gulp.task('build-dep-js', function () {
     return gulp.src([
         'node_modules/.npminstall/jquery/1.11.3/jquery/dist/jquery.js',
@@ -58,7 +71,7 @@ gulp.task('copyPartials', function() {
     gulp.src('src/partials/*.html').pipe(gulp.dest('public/partials'));
 });
 
-gulp.task('build',['build-css', 'build-sass','build-dep-js', 'build-js', 'copyPartials']);
+gulp.task('build',['build-css', 'build-sass','build-dep-js','build-dep-css','build-fonts', 'build-js', 'copyPartials']);
 
 //watch html, js, sass change and apply.
 gulp.task('watch', function () {
