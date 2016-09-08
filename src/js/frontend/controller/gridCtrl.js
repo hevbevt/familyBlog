@@ -1,14 +1,60 @@
 var gridCtrl = function($scope) {
+    var order = [{
+        name: 'chainOrder',
+        product:[{
+            hasChild: true,
+            layout: 1,
+            name:'P1',
+            children:[{
+                layout: 2,
+                name: 'M1',
+                hasChild: false
+            },{
+                layout: 2,
+                name: 'M2', 
+                hasChild: true,
+                children: [{
+                    layout: 3,
+                    name: 'M3',
+                    hasChild: false
+                }]
+            }]
+        }]
+    },{
+        name: 'aloneOrder',
+        product:[]
+    }];
+
     var columnDefs = [
-        {headerName: "Make", field: "make"},
-        {headerName: "Model", field: "model" },
-        {headerName: "Price", field: "price"}
+        {headerName: '层级', field: 'layout', cellRenderer:'group'},
+        {headerName: "订单名", field: "name"},
     ];
 
-    var rowData = [
-        {make: "Toyota", model: "Celica", price: 35000},
-        {make: "Ford", model: "Mondeo", price: 32000}
-    ];
+    var rowDataFactory = function rowDataFactory(data) {
+        var rowData = [];
+        for (var i = 0; i < data.length; i ++) {
+            var _data = data[i];
+            var o = {
+                name: _data.name,
+                fullWidth: true,
+                layout: 0
+            }
+            rowData.push(o);
+            for(var j = 0; _data.product && j < _data.product.length; j++) {
+                var product = _data.product[j];
+                var p = {
+                    hasChild: product.hasChild,
+                    children: product.children,
+                    name: product.name,
+                    layout: 1
+                }
+                rowData.push(p);
+            } 
+        }
+        return rowData;
+    };
+
+    var rowData = rowDataFactory(order);
     var floatingTopRowData = [
         {make: "Toyota", model: "Celica", price: 33000},
     ]
@@ -16,17 +62,41 @@ var gridCtrl = function($scope) {
      $scope.gridOptions = {
         columnDefs: columnDefs,
         rowData: rowData,
+        isFullWidthCell: function(rowNode) {
+            // in this example, we check the fullWidth attribute that we set
+            // while creating the data. what check you do to decide if you
+            // want a row full width is up to you, as long as you return a boolean
+            // for this method.
+            return rowNode.data.fullWidth;
+        },
+        fullWidthCellRenderer: function(params) {
+            var template = '<div style="text-align: center;"><span>' + params.data.name + '</span></div>';
+            return template;
+        },
+        getNodeChildDetails: function(product) {
+            if (product.hasChild) {
+                return {
+                    group: true,
+                    children: product.children,
+                    expanded: false
+                };
+            } else {
+                return null;
+            }
+        },
         headerHeight: 56,
         rowHeight: 76,
-        //floatingTop*: 置顶
-        floatingTopRowData: floatingTopRowData,
         rowSelection: 'single',
         enableColResize: true,
-        suppressAutoSize: true
+        suppressAutoSize: true,
+        onGridReady: function(params) {
+            params.api.sizeColumnsToFit();
+        },
+        icons: {
+            groupExpanded: '<i class="fa fa-caret-down"/>',
+            groupContracted: '<i class="fa fa-caret-right"/>'
+        }
     };
-    setTimeout(function(){
-        $scope.gridOptions.api.sizeColumnsToFit();
-    }, 0);
    
     $scope.fit = function() {
         $scope.gridOptions.api.sizeColumnsToFit();
