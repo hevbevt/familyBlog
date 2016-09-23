@@ -28,6 +28,7 @@ var gridCtrl = function($scope) {
     var columnDefs = [
         {headerName: '层级', field: 'layout', cellRenderer:'group'},
         {headerName: "订单名", field: "name"},
+        {headerName: "pinned on right", pinned: 'right'}
     ];
 
     var rowDataFactory = function rowDataFactory(data) {
@@ -93,8 +94,8 @@ var gridCtrl = function($scope) {
             params.api.sizeColumnsToFit();
         },
         icons: {
-            groupExpanded: '<i class="fa fa-caret-down"/>',
-            groupContracted: '<i class="fa fa-caret-right"/>'
+            groupExpanded: '<i class="fa fa-caret-down fa-lg"/>',
+            groupContracted: '<i class="fa fa-caret-right fa-lg"/>'
         }
     };
    
