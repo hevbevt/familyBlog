@@ -48,7 +48,7 @@ gulp.task('build-fonts', function () {
 });
 gulp.task('build-dep-js', function () {
     return gulp.src([
-        'node_modules/.npminstall/jquery/1.11.3/jquery/dist/jquery.js',
+        'node_modules/jquery/dist/jquery.js',
         'src/js/lib/angular.js',
         'src/js/lib/angular-animate.js',
         'src/js/lib/angular-touch.js',
