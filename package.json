@@ -22,7 +22,7 @@
     "ejs": "~2.4.1",
     "express": "~4.13.4",
     "express-session": "^1.14.0",
-    "fontawesome": "^4.5.0",
+    "font-awesome": "^4.6.3",
     "jquery": "1.11.3",
     "mongodb": "^2.2.1",
     "mongoose": "^4.5.5",
