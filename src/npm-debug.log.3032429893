@@ -1,0 +1,915 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'karma-chrome-launcher',
+1 verbose cli   '--save-dev' ]
+2 info using npm@2.15.8
+3 info using node@v4.4.7
+4 verbose install initial load of /Users/duanhe/nodeProj/blog/package.json
+5 verbose installManyTop reading scoped package data from /Users/duanhe/nodeProj/blog/node_modules/ag-grid/package.json
+6 verbose installManyTop reading scoped package data from /Users/duanhe/nodeProj/blog/node_modules/angular/package.json
+7 verbose installManyTop reading scoped package data from /Users/duanhe/nodeProj/blog/node_modules/angular-animate/package.json
+8 verbose installManyTop reading scoped package data from /Users/duanhe/nodeProj/blog/node_modules/angular-route/package.json
+9 verbose installManyTop reading scoped package data from /Users/duanhe/nodeProj/blog/node_modules/angular-touch/package.json
+10 verbose installManyTop reading scoped package data from /Users/duanhe/nodeProj/blog/node_modules/angular-ui-router/package.json
+11 verbose installManyTop reading scoped package data from /Users/duanhe/nodeProj/blog/node_modules/body-parser/package.json
+12 verbose installManyTop reading scoped package data from /Users/duanhe/nodeProj/blog/node_modules/bootstrap/package.json
+13 verbose installManyTop reading scoped package data from /Users/duanhe/nodeProj/blog/node_modules/connect-flash/package.json
+14 verbose installManyTop reading scoped package data from /Users/duanhe/nodeProj/blog/node_modules/connect-mongo/package.json
+15 verbose installManyTop reading scoped package data from /Users/duanhe/nodeProj/blog/node_modules/cookie-parser/package.json
+16 verbose installManyTop reading scoped package data from /Users/duanhe/nodeProj/blog/node_modules/css-loader/package.json
+17 verbose installManyTop reading scoped package data from /Users/duanhe/nodeProj/blog/node_modules/debug/package.json
+18 verbose installManyTop reading scoped package data from /Users/duanhe/nodeProj/blog/node_modules/ejs/package.json
+19 verbose installManyTop reading scoped package data from /Users/duanhe/nodeProj/blog/node_modules/ejs-loader/package.json
+20 verbose installManyTop reading scoped package data from /Users/duanhe/nodeProj/blog/node_modules/express/package.json
+21 verbose installManyTop reading scoped package data from /Users/duanhe/nodeProj/blog/node_modules/express-session/package.json
+22 verbose installManyTop reading scoped package data from /Users/duanhe/nodeProj/blog/node_modules/font-awesome/package.json
+23 verbose installManyTop reading scoped package data from /Users/duanhe/nodeProj/blog/node_modules/gulp/package.json
+24 verbose installManyTop reading scoped package data from /Users/duanhe/nodeProj/blog/node_modules/gulp-concat/package.json
+25 verbose installManyTop reading scoped package data from /Users/duanhe/nodeProj/blog/node_modules/gulp-concat-css/package.json
+26 verbose installManyTop reading scoped package data from /Users/duanhe/nodeProj/blog/node_modules/gulp-jshint/package.json
+27 verbose installManyTop reading scoped package data from /Users/duanhe/nodeProj/blog/node_modules/gulp-sass/package.json
+28 verbose installManyTop reading scoped package data from /Users/duanhe/nodeProj/blog/node_modules/gulp-sourcemaps/package.json
+29 verbose installManyTop reading scoped package data from /Users/duanhe/nodeProj/blog/node_modules/gulp-uglify/package.json
+30 verbose installManyTop reading scoped package data from /Users/duanhe/nodeProj/blog/node_modules/gulp-util/package.json
+31 verbose installManyTop reading scoped package data from /Users/duanhe/nodeProj/blog/node_modules/jquery/package.json
+32 verbose installManyTop reading scoped package data from /Users/duanhe/nodeProj/blog/node_modules/jshint/package.json
+33 verbose installManyTop reading scoped package data from /Users/duanhe/nodeProj/blog/node_modules/jshint-stylish/package.json
+34 verbose installManyTop reading scoped package data from /Users/duanhe/nodeProj/blog/node_modules/karma-jasmine/package.json
+35 verbose installManyTop reading scoped package data from /Users/duanhe/nodeProj/blog/node_modules/mongodb/package.json
+36 verbose installManyTop reading scoped package data from /Users/duanhe/nodeProj/blog/node_modules/mongoose/package.json
+37 verbose installManyTop reading scoped package data from /Users/duanhe/nodeProj/blog/node_modules/morgan/package.json
+38 verbose installManyTop reading scoped package data from /Users/duanhe/nodeProj/blog/node_modules/sass-loader/package.json
+39 verbose installManyTop reading scoped package data from /Users/duanhe/nodeProj/blog/node_modules/serve-favicon/package.json
+40 verbose installManyTop reading scoped package data from /Users/duanhe/nodeProj/blog/node_modules/style-loader/package.json
+41 verbose installManyTop reading scoped package data from /Users/duanhe/nodeProj/blog/node_modules/webpack/package.json
+42 info package.json connect-mongo@1.2.1 No README data
+43 info package.json karma-jasmine@1.0.2 No README data
+44 info package.json connect-flash@0.1.1 No license field.
+45 info package.json gulp-concat-css@2.3.0 No license field.
+46 info package.json jquery@1.11.3 No license field.
+47 verbose readDependencies loading dependencies from /Users/duanhe/nodeProj/blog/package.json
+48 silly cache add args [ 'karma-chrome-launcher', null ]
+49 verbose cache add spec karma-chrome-launcher
+50 silly cache add parsed spec Result {
+50 silly cache add   raw: 'karma-chrome-launcher',
+50 silly cache add   scope: null,
+50 silly cache add   name: 'karma-chrome-launcher',
+50 silly cache add   rawSpec: '',
+50 silly cache add   spec: 'latest',
+50 silly cache add   type: 'tag' }
+51 silly addNamed karma-chrome-launcher@latest
+52 verbose addNamed "latest" is being treated as a dist-tag for karma-chrome-launcher
+53 info addNameTag [ 'karma-chrome-launcher', 'latest' ]
+54 silly mapToRegistry name karma-chrome-launcher
+55 silly mapToRegistry using default registry
+56 silly mapToRegistry registry https://registry.npmjs.org/
+57 silly mapToRegistry data Result {
+57 silly mapToRegistry   raw: 'karma-chrome-launcher',
+57 silly mapToRegistry   scope: null,
+57 silly mapToRegistry   name: 'karma-chrome-launcher',
+57 silly mapToRegistry   rawSpec: '',
+57 silly mapToRegistry   spec: 'latest',
+57 silly mapToRegistry   type: 'tag' }
+58 silly mapToRegistry uri https://registry.npmjs.org/karma-chrome-launcher
+59 verbose addNameTag registry:https://registry.npmjs.org/karma-chrome-launcher not in flight; fetching
+60 verbose request uri https://registry.npmjs.org/karma-chrome-launcher
+61 verbose request no auth needed
+62 info attempt registry request try #1 at 15:02:11
+63 verbose request id 2416de34379df7a5
+64 http request GET https://registry.npmjs.org/karma-chrome-launcher
+65 http 200 https://registry.npmjs.org/karma-chrome-launcher
+66 verbose headers { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+66 verbose headers   etag: '"4F85C0FZBMRDOTDFPHJMQZBM8"',
+66 verbose headers   'content-type': 'application/json',
+66 verbose headers   'content-encoding': 'gzip',
+66 verbose headers   'cache-control': 'max-age=300',
+66 verbose headers   'content-length': '6086',
+66 verbose headers   'accept-ranges': 'bytes',
+66 verbose headers   date: 'Mon, 17 Oct 2016 07:02:14 GMT',
+66 verbose headers   via: '1.1 varnish',
+66 verbose headers   age: '179',
+66 verbose headers   connection: 'keep-alive',
+66 verbose headers   'x-served-by': 'cache-lcy1124-LCY',
+66 verbose headers   'x-cache': 'HIT',
+66 verbose headers   'x-cache-hits': '2',
+66 verbose headers   'x-timer': 'S1476687734.936325,VS0,VE0',
+66 verbose headers   vary: 'Accept-Encoding' }
+67 silly get cb [ 200,
+67 silly get   { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+67 silly get     etag: '"4F85C0FZBMRDOTDFPHJMQZBM8"',
+67 silly get     'content-type': 'application/json',
+67 silly get     'content-encoding': 'gzip',
+67 silly get     'cache-control': 'max-age=300',
+67 silly get     'content-length': '6086',
+67 silly get     'accept-ranges': 'bytes',
+67 silly get     date: 'Mon, 17 Oct 2016 07:02:14 GMT',
+67 silly get     via: '1.1 varnish',
+67 silly get     age: '179',
+67 silly get     connection: 'keep-alive',
+67 silly get     'x-served-by': 'cache-lcy1124-LCY',
+67 silly get     'x-cache': 'HIT',
+67 silly get     'x-cache-hits': '2',
+67 silly get     'x-timer': 'S1476687734.936325,VS0,VE0',
+67 silly get     vary: 'Accept-Encoding' } ]
+68 verbose get saving karma-chrome-launcher to /Users/duanhe/.npm/registry.npmjs.org/karma-chrome-launcher/.cache.json
+69 verbose correctMkdir /Users/duanhe/.npm correctMkdir not in flight; initializing
+70 silly addNameTag next cb for karma-chrome-launcher with tag latest
+71 silly addNamed karma-chrome-launcher@2.0.0
+72 verbose addNamed "2.0.0" is a plain semver version for karma-chrome-launcher
+73 silly mapToRegistry name karma-chrome-launcher
+74 silly mapToRegistry using default registry
+75 silly mapToRegistry registry https://registry.npmjs.org/
+76 silly mapToRegistry data Result {
+76 silly mapToRegistry   raw: 'karma-chrome-launcher',
+76 silly mapToRegistry   scope: null,
+76 silly mapToRegistry   name: 'karma-chrome-launcher',
+76 silly mapToRegistry   rawSpec: '',
+76 silly mapToRegistry   spec: 'latest',
+76 silly mapToRegistry   type: 'tag' }
+77 silly mapToRegistry uri https://registry.npmjs.org/karma-chrome-launcher
+78 verbose addRemoteTarball https://registry.npmjs.org/karma-chrome-launcher/-/karma-chrome-launcher-2.0.0.tgz not in flight; adding
+79 verbose addRemoteTarball [ 'https://registry.npmjs.org/karma-chrome-launcher/-/karma-chrome-launcher-2.0.0.tgz',
+79 verbose addRemoteTarball   'c2790c5a32b15577d0fff5a4d5a2703b3b439c25' ]
+80 info retry fetch attempt 1 at 15:02:17
+81 info attempt registry request try #1 at 15:02:17
+82 http fetch GET https://registry.npmjs.org/karma-chrome-launcher/-/karma-chrome-launcher-2.0.0.tgz
+83 http fetch 200 https://registry.npmjs.org/karma-chrome-launcher/-/karma-chrome-launcher-2.0.0.tgz
+84 silly fetchAndShaCheck shasum c2790c5a32b15577d0fff5a4d5a2703b3b439c25
+85 verbose addTmpTarball /tmp/npm-12550-152b03c2/registry.npmjs.org/karma-chrome-launcher/-/karma-chrome-launcher-2.0.0.tgz not in flight; adding
+86 verbose addTmpTarball already have metadata; skipping unpack for karma-chrome-launcher@2.0.0
+87 verbose correctMkdir /Users/duanhe/.npm correctMkdir not in flight; initializing
+88 silly cache afterAdd karma-chrome-launcher@2.0.0
+89 verbose afterAdd /Users/duanhe/.npm/karma-chrome-launcher/2.0.0/package/package.json not in flight; writing
+90 verbose correctMkdir /Users/duanhe/.npm correctMkdir not in flight; initializing
+91 verbose afterAdd /Users/duanhe/.npm/karma-chrome-launcher/2.0.0/package/package.json written
+92 silly install resolved [ { name: 'karma-chrome-launcher',
+92 silly install resolved     version: '2.0.0',
+92 silly install resolved     description: 'A Karma plugin. Launcher for Chrome and Chrome Canary.',
+92 silly install resolved     main: 'index.js',
+92 silly install resolved     scripts: { test: 'grunt test' },
+92 silly install resolved     repository:
+92 silly install resolved      { type: 'git',
+92 silly install resolved        url: 'git://github.com/karma-runner/karma-chrome-launcher.git' },
+92 silly install resolved     keywords: [ 'karma-plugin', 'karma-launcher', 'chrome' ],
+92 silly install resolved     author: { name: 'Vojta Jina', email: 'vojta.jina@gmail.com' },
+92 silly install resolved     dependencies: { 'fs-access': '^1.0.0', which: '^1.2.1' },
+92 silly install resolved     license: 'MIT',
+92 silly install resolved     devDependencies:
+92 silly install resolved      { chai: '^3.3.0',
+92 silly install resolved        eslint: '^1.6.0',
+92 silly install resolved        'eslint-config-standard': '^4.4.0',
+92 silly install resolved        'eslint-plugin-standard': '^1.3.1',
+92 silly install resolved        grunt: '^0.4.1',
+92 silly install resolved        'grunt-auto-release': '^0.0.6',
+92 silly install resolved        'grunt-bump': '^0.6.0',
+92 silly install resolved        'grunt-conventional-changelog': '^5.0.0',
+92 silly install resolved        'grunt-conventional-github-releaser': '^0.5.0',
+92 silly install resolved        'grunt-eslint': '^17.2.0',
+92 silly install resolved        'grunt-karma': '1.x || ^0.12.1',
+92 silly install resolved        'grunt-npm': '^0.0.2',
+92 silly install resolved        'grunt-simple-mocha': '^0.4.0',
+92 silly install resolved        'jasmine-node': '^1.14.5',
+92 silly install resolved        karma: '1.x || ^0.13.10',
+92 silly install resolved        'karma-mocha': '1.x || ^0.2.0',
+92 silly install resolved        'load-grunt-tasks': '^3.2.0',
+92 silly install resolved        mocha: '^2.3.3',
+92 silly install resolved        sinon: '^1.17.1' },
+92 silly install resolved     contributors:
+92 silly install resolved      [ [Object],
+92 silly install resolved        [Object],
+92 silly install resolved        [Object],
+92 silly install resolved        [Object],
+92 silly install resolved        [Object],
+92 silly install resolved        [Object],
+92 silly install resolved        [Object],
+92 silly install resolved        [Object],
+92 silly install resolved        [Object],
+92 silly install resolved        [Object],
+92 silly install resolved        [Object],
+92 silly install resolved        [Object],
+92 silly install resolved        [Object],
+92 silly install resolved        [Object],
+92 silly install resolved        [Object],
+92 silly install resolved        [Object],
+92 silly install resolved        [Object],
+92 silly install resolved        [Object],
+92 silly install resolved        [Object],
+92 silly install resolved        [Object] ],
+92 silly install resolved     gitHead: '4110f87beb51ec45e23b4fc186957c2789a93b9a',
+92 silly install resolved     bugs: { url: 'https://github.com/karma-runner/karma-chrome-launcher/issues' },
+92 silly install resolved     homepage: 'https://github.com/karma-runner/karma-chrome-launcher#readme',
+92 silly install resolved     _id: 'karma-chrome-launcher@2.0.0',
+92 silly install resolved     _shasum: 'c2790c5a32b15577d0fff5a4d5a2703b3b439c25',
+92 silly install resolved     _from: 'karma-chrome-launcher@latest',
+92 silly install resolved     _npmVersion: '3.10.3',
+92 silly install resolved     _nodeVersion: '6.3.0',
+92 silly install resolved     _npmUser: { name: 'dignifiedquire', email: 'dignifiedquire@gmail.com' },
+92 silly install resolved     dist:
+92 silly install resolved      { shasum: 'c2790c5a32b15577d0fff5a4d5a2703b3b439c25',
+92 silly install resolved        tarball: 'https://registry.npmjs.org/karma-chrome-launcher/-/karma-chrome-launcher-2.0.0.tgz' },
+92 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+92 silly install resolved     _npmOperationalInternal:
+92 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+92 silly install resolved        tmp: 'tmp/karma-chrome-launcher-2.0.0.tgz_1471537093162_0.5068207308650017' },
+92 silly install resolved     directories: {},
+92 silly install resolved     _resolved: 'https://registry.npmjs.org/karma-chrome-launcher/-/karma-chrome-launcher-2.0.0.tgz' } ]
+93 info install karma-chrome-launcher@2.0.0 into /Users/duanhe/nodeProj/blog
+94 info installOne karma-chrome-launcher@2.0.0
+95 verbose installOne of karma-chrome-launcher to /Users/duanhe/nodeProj/blog not in flight; installing
+96 verbose correctMkdir /Users/duanhe/.npm/_locks correctMkdir not in flight; initializing
+97 verbose lock using /Users/duanhe/.npm/_locks/karma-chrome-launcher-f1ff82f760143156.lock for /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher
+98 silly install write writing karma-chrome-launcher 2.0.0 to /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher
+99 verbose unbuild node_modules/karma-chrome-launcher
+100 silly gentlyRm /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher is being purged from base /Users/duanhe/nodeProj/blog
+101 verbose gentlyRm don't care about contents; nuking /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher
+102 verbose tar unpack /Users/duanhe/.npm/karma-chrome-launcher/2.0.0/package.tgz
+103 verbose tar unpacking to /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher
+104 silly gentlyRm /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher is being purged
+105 verbose gentlyRm don't care about contents; nuking /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher
+106 silly gunzTarPerm modes [ '755', '644' ]
+107 silly gunzTarPerm extractEntry package.json
+108 silly gunzTarPerm extractEntry README.md
+109 silly gunzTarPerm extractEntry LICENSE
+110 silly gunzTarPerm extractEntry gruntfile.js
+111 silly gunzTarPerm extractEntry index.js
+112 silly gunzTarPerm extractEntry examples/simple/index.spec.js
+113 silly gunzTarPerm extractEntry examples/simple/karma.conf.js
+114 silly gunzTarPerm extractEntry CHANGELOG.md
+115 silly gunzTarPerm extractEntry test/jsflags.spec.js
+116 verbose write writing to /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/package.json
+117 info preinstall karma-chrome-launcher@2.0.0
+118 verbose readDependencies loading dependencies from /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/package.json
+119 silly prepareForInstallMany adding fs-access@^1.0.0 from karma-chrome-launcher dependencies
+120 silly prepareForInstallMany adding which@^1.2.1 from karma-chrome-launcher dependencies
+121 verbose readDependencies loading dependencies from /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/package.json
+122 silly cache add args [ 'fs-access@^1.0.0', null ]
+123 verbose cache add spec fs-access@^1.0.0
+124 silly cache add args [ 'which@^1.2.1', null ]
+125 verbose cache add spec which@^1.2.1
+126 silly cache add parsed spec Result {
+126 silly cache add   raw: 'fs-access@^1.0.0',
+126 silly cache add   scope: null,
+126 silly cache add   name: 'fs-access',
+126 silly cache add   rawSpec: '^1.0.0',
+126 silly cache add   spec: '>=1.0.0 <2.0.0',
+126 silly cache add   type: 'range' }
+127 silly addNamed fs-access@>=1.0.0 <2.0.0
+128 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for fs-access
+129 silly addNameRange { name: 'fs-access', range: '>=1.0.0 <2.0.0', hasData: false }
+130 silly mapToRegistry name fs-access
+131 silly mapToRegistry using default registry
+132 silly mapToRegistry registry https://registry.npmjs.org/
+133 silly mapToRegistry data Result {
+133 silly mapToRegistry   raw: 'fs-access',
+133 silly mapToRegistry   scope: null,
+133 silly mapToRegistry   name: 'fs-access',
+133 silly mapToRegistry   rawSpec: '',
+133 silly mapToRegistry   spec: 'latest',
+133 silly mapToRegistry   type: 'tag' }
+134 silly mapToRegistry uri https://registry.npmjs.org/fs-access
+135 verbose addNameRange registry:https://registry.npmjs.org/fs-access not in flight; fetching
+136 silly cache add parsed spec Result {
+136 silly cache add   raw: 'which@^1.2.1',
+136 silly cache add   scope: null,
+136 silly cache add   name: 'which',
+136 silly cache add   rawSpec: '^1.2.1',
+136 silly cache add   spec: '>=1.2.1 <2.0.0',
+136 silly cache add   type: 'range' }
+137 silly addNamed which@>=1.2.1 <2.0.0
+138 verbose addNamed ">=1.2.1 <2.0.0" is a valid semver range for which
+139 silly addNameRange { name: 'which', range: '>=1.2.1 <2.0.0', hasData: false }
+140 silly mapToRegistry name which
+141 silly mapToRegistry using default registry
+142 silly mapToRegistry registry https://registry.npmjs.org/
+143 silly mapToRegistry data Result {
+143 silly mapToRegistry   raw: 'which',
+143 silly mapToRegistry   scope: null,
+143 silly mapToRegistry   name: 'which',
+143 silly mapToRegistry   rawSpec: '',
+143 silly mapToRegistry   spec: 'latest',
+143 silly mapToRegistry   type: 'tag' }
+144 silly mapToRegistry uri https://registry.npmjs.org/which
+145 verbose addNameRange registry:https://registry.npmjs.org/which not in flight; fetching
+146 verbose request uri https://registry.npmjs.org/fs-access
+147 verbose request no auth needed
+148 info attempt registry request try #1 at 15:03:02
+149 http request GET https://registry.npmjs.org/fs-access
+150 verbose request uri https://registry.npmjs.org/which
+151 verbose request no auth needed
+152 info attempt registry request try #1 at 15:03:02
+153 verbose etag "2KFIPWGAL54RH75Q4VKLWD6E0"
+154 http request GET https://registry.npmjs.org/which
+155 http 200 https://registry.npmjs.org/fs-access
+156 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+156 verbose headers   etag: '"4OJLDTROJV4RVPD4GKAZOBK7D"',
+156 verbose headers   'content-type': 'application/json',
+156 verbose headers   'content-encoding': 'gzip',
+156 verbose headers   'cache-control': 'max-age=300',
+156 verbose headers   'content-length': '1511',
+156 verbose headers   'accept-ranges': 'bytes',
+156 verbose headers   date: 'Mon, 17 Oct 2016 07:03:02 GMT',
+156 verbose headers   via: '1.1 varnish',
+156 verbose headers   age: '120',
+156 verbose headers   connection: 'keep-alive',
+156 verbose headers   'x-served-by': 'cache-lcy1124-LCY',
+156 verbose headers   'x-cache': 'HIT',
+156 verbose headers   'x-cache-hits': '1',
+156 verbose headers   'x-timer': 'S1476687782.452072,VS0,VE0',
+156 verbose headers   vary: 'Accept-Encoding' }
+157 silly get cb [ 200,
+157 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+157 silly get     etag: '"4OJLDTROJV4RVPD4GKAZOBK7D"',
+157 silly get     'content-type': 'application/json',
+157 silly get     'content-encoding': 'gzip',
+157 silly get     'cache-control': 'max-age=300',
+157 silly get     'content-length': '1511',
+157 silly get     'accept-ranges': 'bytes',
+157 silly get     date: 'Mon, 17 Oct 2016 07:03:02 GMT',
+157 silly get     via: '1.1 varnish',
+157 silly get     age: '120',
+157 silly get     connection: 'keep-alive',
+157 silly get     'x-served-by': 'cache-lcy1124-LCY',
+157 silly get     'x-cache': 'HIT',
+157 silly get     'x-cache-hits': '1',
+157 silly get     'x-timer': 'S1476687782.452072,VS0,VE0',
+157 silly get     vary: 'Accept-Encoding' } ]
+158 verbose get saving fs-access to /Users/duanhe/.npm/registry.npmjs.org/fs-access/.cache.json
+159 verbose correctMkdir /Users/duanhe/.npm correctMkdir not in flight; initializing
+160 silly addNameRange number 2 { name: 'fs-access', range: '>=1.0.0 <2.0.0', hasData: true }
+161 silly addNameRange versions [ 'fs-access', [ '1.0.0', '1.0.1' ] ]
+162 silly addNamed fs-access@1.0.1
+163 verbose addNamed "1.0.1" is a plain semver version for fs-access
+164 silly mapToRegistry name fs-access
+165 silly mapToRegistry using default registry
+166 silly mapToRegistry registry https://registry.npmjs.org/
+167 silly mapToRegistry data Result {
+167 silly mapToRegistry   raw: 'fs-access',
+167 silly mapToRegistry   scope: null,
+167 silly mapToRegistry   name: 'fs-access',
+167 silly mapToRegistry   rawSpec: '',
+167 silly mapToRegistry   spec: 'latest',
+167 silly mapToRegistry   type: 'tag' }
+168 silly mapToRegistry uri https://registry.npmjs.org/fs-access
+169 verbose addRemoteTarball https://registry.npmjs.org/fs-access/-/fs-access-1.0.1.tgz not in flight; adding
+170 verbose addRemoteTarball [ 'https://registry.npmjs.org/fs-access/-/fs-access-1.0.1.tgz',
+170 verbose addRemoteTarball   'd6a87f262271cefebec30c553407fb995da8777a' ]
+171 info retry fetch attempt 1 at 15:03:03
+172 info attempt registry request try #1 at 15:03:03
+173 http fetch GET https://registry.npmjs.org/fs-access/-/fs-access-1.0.1.tgz
+174 http fetch 200 https://registry.npmjs.org/fs-access/-/fs-access-1.0.1.tgz
+175 silly fetchAndShaCheck shasum d6a87f262271cefebec30c553407fb995da8777a
+176 verbose addTmpTarball /tmp/npm-12550-152b03c2/registry.npmjs.org/fs-access/-/fs-access-1.0.1.tgz not in flight; adding
+177 verbose addTmpTarball already have metadata; skipping unpack for fs-access@1.0.1
+178 verbose correctMkdir /Users/duanhe/.npm correctMkdir not in flight; initializing
+179 silly cache afterAdd fs-access@1.0.1
+180 verbose afterAdd /Users/duanhe/.npm/fs-access/1.0.1/package/package.json not in flight; writing
+181 verbose correctMkdir /Users/duanhe/.npm correctMkdir not in flight; initializing
+182 verbose afterAdd /Users/duanhe/.npm/fs-access/1.0.1/package/package.json written
+183 http 304 https://registry.npmjs.org/which
+184 verbose headers { date: 'Mon, 17 Oct 2016 07:03:28 GMT',
+184 verbose headers   via: '1.1 varnish',
+184 verbose headers   'cache-control': 'max-age=300',
+184 verbose headers   etag: '"2KFIPWGAL54RH75Q4VKLWD6E0"',
+184 verbose headers   age: '74',
+184 verbose headers   connection: 'keep-alive',
+184 verbose headers   'x-served-by': 'cache-lcy1124-LCY',
+184 verbose headers   'x-cache': 'HIT',
+184 verbose headers   'x-cache-hits': '490',
+184 verbose headers   'x-timer': 'S1476687808.303811,VS0,VE0',
+184 verbose headers   vary: 'Accept-Encoding' }
+185 silly get cb [ 304,
+185 silly get   { date: 'Mon, 17 Oct 2016 07:03:28 GMT',
+185 silly get     via: '1.1 varnish',
+185 silly get     'cache-control': 'max-age=300',
+185 silly get     etag: '"2KFIPWGAL54RH75Q4VKLWD6E0"',
+185 silly get     age: '74',
+185 silly get     connection: 'keep-alive',
+185 silly get     'x-served-by': 'cache-lcy1124-LCY',
+185 silly get     'x-cache': 'HIT',
+185 silly get     'x-cache-hits': '490',
+185 silly get     'x-timer': 'S1476687808.303811,VS0,VE0',
+185 silly get     vary: 'Accept-Encoding' } ]
+186 verbose etag https://registry.npmjs.org/which from cache
+187 verbose get saving which to /Users/duanhe/.npm/registry.npmjs.org/which/.cache.json
+188 verbose correctMkdir /Users/duanhe/.npm correctMkdir not in flight; initializing
+189 silly addNameRange number 2 { name: 'which', range: '>=1.2.1 <2.0.0', hasData: true }
+190 silly addNameRange versions [ 'which',
+190 silly addNameRange   [ '1.0.0',
+190 silly addNameRange     '1.0.1',
+190 silly addNameRange     '1.0.2',
+190 silly addNameRange     '1.0.3',
+190 silly addNameRange     '1.0.5',
+190 silly addNameRange     '1.0.6',
+190 silly addNameRange     '1.0.7',
+190 silly addNameRange     '1.0.8',
+190 silly addNameRange     '1.0.9',
+190 silly addNameRange     '1.1.0',
+190 silly addNameRange     '1.1.1',
+190 silly addNameRange     '1.1.2',
+190 silly addNameRange     '1.2.0',
+190 silly addNameRange     '1.2.1',
+190 silly addNameRange     '1.2.4',
+190 silly addNameRange     '1.2.5',
+190 silly addNameRange     '1.2.6',
+190 silly addNameRange     '1.2.7',
+190 silly addNameRange     '1.2.8',
+190 silly addNameRange     '1.2.9',
+190 silly addNameRange     '1.2.10',
+190 silly addNameRange     '1.2.11' ] ]
+191 silly addNamed which@1.2.11
+192 verbose addNamed "1.2.11" is a plain semver version for which
+193 silly cache afterAdd which@1.2.11
+194 verbose afterAdd /Users/duanhe/.npm/which/1.2.11/package/package.json not in flight; writing
+195 verbose correctMkdir /Users/duanhe/.npm correctMkdir not in flight; initializing
+196 verbose afterAdd /Users/duanhe/.npm/which/1.2.11/package/package.json written
+197 silly install resolved [ { name: 'fs-access',
+197 silly install resolved     version: '1.0.1',
+197 silly install resolved     description: 'Node.js 0.12 fs.access() & fs.accessSync() ponyfill',
+197 silly install resolved     license: 'MIT',
+197 silly install resolved     repository:
+197 silly install resolved      { type: 'git',
+197 silly install resolved        url: 'git+https://github.com/sindresorhus/fs-access.git' },
+197 silly install resolved     author:
+197 silly install resolved      { name: 'Sindre Sorhus',
+197 silly install resolved        email: 'sindresorhus@gmail.com',
+197 silly install resolved        url: 'sindresorhus.com' },
+197 silly install resolved     engines: { node: '>=0.10.0' },
+197 silly install resolved     scripts: { test: 'node test.js' },
+197 silly install resolved     files: [ 'index.js' ],
+197 silly install resolved     keywords:
+197 silly install resolved      [ 'built-in',
+197 silly install resolved        'core',
+197 silly install resolved        'ponyfill',
+197 silly install resolved        'polyfill',
+197 silly install resolved        'shim',
+197 silly install resolved        'fs',
+197 silly install resolved        'access',
+197 silly install resolved        'stat',
+197 silly install resolved        'mode',
+197 silly install resolved        'permission',
+197 silly install resolved        'user',
+197 silly install resolved        'process',
+197 silly install resolved        'check' ],
+197 silly install resolved     dependencies: { 'null-check': '^1.0.0' },
+197 silly install resolved     devDependencies: { 'os-tmpdir': '^1.0.0' },
+197 silly install resolved     gitHead: '5b9c45c28f0199be3531c1991f6fbd858067c918',
+197 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/fs-access/issues' },
+197 silly install resolved     homepage: 'https://github.com/sindresorhus/fs-access#readme',
+197 silly install resolved     _id: 'fs-access@1.0.1',
+197 silly install resolved     _shasum: 'd6a87f262271cefebec30c553407fb995da8777a',
+197 silly install resolved     _from: 'fs-access@>=1.0.0 <2.0.0',
+197 silly install resolved     _npmVersion: '2.15.9',
+197 silly install resolved     _nodeVersion: '4.5.0',
+197 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+197 silly install resolved     dist:
+197 silly install resolved      { shasum: 'd6a87f262271cefebec30c553407fb995da8777a',
+197 silly install resolved        tarball: 'https://registry.npmjs.org/fs-access/-/fs-access-1.0.1.tgz' },
+197 silly install resolved     maintainers: [ [Object] ],
+197 silly install resolved     _npmOperationalInternal:
+197 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+197 silly install resolved        tmp: 'tmp/fs-access-1.0.1.tgz_1475222143995_0.7106209583580494' },
+197 silly install resolved     directories: {},
+197 silly install resolved     _resolved: 'https://registry.npmjs.org/fs-access/-/fs-access-1.0.1.tgz' },
+197 silly install resolved   { author:
+197 silly install resolved      { name: 'Isaac Z. Schlueter',
+197 silly install resolved        email: 'i@izs.me',
+197 silly install resolved        url: 'http://blog.izs.me' },
+197 silly install resolved     name: 'which',
+197 silly install resolved     description: 'Like which(1) unix command. Find the first instance of an executable in the PATH.',
+197 silly install resolved     version: '1.2.11',
+197 silly install resolved     repository: { type: 'git', url: 'git://github.com/isaacs/node-which.git' },
+197 silly install resolved     main: 'which.js',
+197 silly install resolved     bin: { which: './bin/which' },
+197 silly install resolved     license: 'ISC',
+197 silly install resolved     dependencies: { isexe: '^1.1.1' },
+197 silly install resolved     devDependencies: { mkdirp: '^0.5.0', rimraf: '^2.3.3', tap: '^5.1.1' },
+197 silly install resolved     scripts:
+197 silly install resolved      { test: 'tap test/*.js --cov',
+197 silly install resolved        changelog: 'bash gen-changelog.sh',
+197 silly install resolved        postversion: 'npm run changelog && git add CHANGELOG.md && git commit -m \'update changelog - \'${npm_package_version}' },
+197 silly install resolved     files: [ 'which.js', 'bin/which' ],
+197 silly install resolved     gitHead: '8a7d0aa1ca10173f9f4d84bf528a3efc1f5d0c6f',
+197 silly install resolved     bugs: { url: 'https://github.com/isaacs/node-which/issues' },
+197 silly install resolved     homepage: 'https://github.com/isaacs/node-which#readme',
+197 silly install resolved     _id: 'which@1.2.11',
+197 silly install resolved     _shasum: 'c8b2eeea6b8c1659fa7c1dd4fdaabe9533dc5e8b',
+197 silly install resolved     _from: 'which@>=1.2.1 <2.0.0',
+197 silly install resolved     _npmVersion: '3.10.7',
+197 silly install resolved     _nodeVersion: '6.5.0',
+197 silly install resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+197 silly install resolved     dist:
+197 silly install resolved      { shasum: 'c8b2eeea6b8c1659fa7c1dd4fdaabe9533dc5e8b',
+197 silly install resolved        tarball: 'https://registry.npmjs.org/which/-/which-1.2.11.tgz' },
+197 silly install resolved     maintainers: [ [Object] ],
+197 silly install resolved     _npmOperationalInternal:
+197 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+197 silly install resolved        tmp: 'tmp/which-1.2.11.tgz_1473093398489_0.1032072464004159' },
+197 silly install resolved     directories: {},
+197 silly install resolved     _resolved: 'https://registry.npmjs.org/which/-/which-1.2.11.tgz',
+197 silly install resolved     readme: 'ERROR: No README data found!' } ]
+198 info install fs-access@1.0.1 into /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher
+199 info install which@1.2.11 into /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher
+200 info installOne fs-access@1.0.1
+201 verbose installOne of fs-access to /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher not in flight; installing
+202 verbose correctMkdir /Users/duanhe/.npm/_locks correctMkdir not in flight; initializing
+203 info installOne which@1.2.11
+204 verbose installOne of which to /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher not in flight; installing
+205 verbose correctMkdir /Users/duanhe/.npm/_locks correctMkdir not in flight; initializing
+206 verbose lock using /Users/duanhe/.npm/_locks/fs-access-db0d8e429384b6be.lock for /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/fs-access
+207 verbose lock using /Users/duanhe/.npm/_locks/which-fb3bc38c46c20012.lock for /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/which
+208 silly install write writing fs-access 1.0.1 to /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/fs-access
+209 silly install write writing which 1.2.11 to /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/which
+210 verbose unbuild node_modules/karma-chrome-launcher/node_modules/fs-access
+211 verbose unbuild node_modules/karma-chrome-launcher/node_modules/which
+212 silly gentlyRm /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/fs-access is being purged from base /Users/duanhe/nodeProj/blog
+213 verbose gentlyRm don't care about contents; nuking /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/fs-access
+214 verbose tar unpack /Users/duanhe/.npm/fs-access/1.0.1/package.tgz
+215 verbose tar unpacking to /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/fs-access
+216 silly gentlyRm /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/fs-access is being purged
+217 verbose gentlyRm don't care about contents; nuking /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/fs-access
+218 silly gentlyRm /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/which is being purged from base /Users/duanhe/nodeProj/blog
+219 verbose gentlyRm don't care about contents; nuking /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/which
+220 silly gunzTarPerm modes [ '755', '644' ]
+221 verbose tar unpack /Users/duanhe/.npm/which/1.2.11/package.tgz
+222 verbose tar unpacking to /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/which
+223 silly gentlyRm /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/which is being purged
+224 verbose gentlyRm don't care about contents; nuking /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/which
+225 silly gunzTarPerm modes [ '755', '644' ]
+226 silly gunzTarPerm extractEntry package.json
+227 silly gunzTarPerm extractEntry package.json
+228 silly gunzTarPerm extractEntry index.js
+229 silly gunzTarPerm extractEntry license
+230 silly gunzTarPerm extractEntry README.md
+231 silly gunzTarPerm extractEntry LICENSE
+232 silly gunzTarPerm extractEntry readme.md
+233 silly gunzTarPerm extractEntry which.js
+234 silly gunzTarPerm extractEntry bin/which
+235 silly gunzTarPerm extractEntry CHANGELOG.md
+236 verbose write writing to /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/fs-access/package.json
+237 info preinstall fs-access@1.0.1
+238 verbose readDependencies loading dependencies from /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/fs-access/package.json
+239 silly prepareForInstallMany adding null-check@^1.0.0 from fs-access dependencies
+240 verbose readDependencies loading dependencies from /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/fs-access/package.json
+241 verbose write writing to /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/which/package.json
+242 info preinstall which@1.2.11
+243 silly cache add args [ 'null-check@^1.0.0', null ]
+244 verbose cache add spec null-check@^1.0.0
+245 silly cache add parsed spec Result {
+245 silly cache add   raw: 'null-check@^1.0.0',
+245 silly cache add   scope: null,
+245 silly cache add   name: 'null-check',
+245 silly cache add   rawSpec: '^1.0.0',
+245 silly cache add   spec: '>=1.0.0 <2.0.0',
+245 silly cache add   type: 'range' }
+246 silly addNamed null-check@>=1.0.0 <2.0.0
+247 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for null-check
+248 silly addNameRange { name: 'null-check', range: '>=1.0.0 <2.0.0', hasData: false }
+249 silly mapToRegistry name null-check
+250 silly mapToRegistry using default registry
+251 silly mapToRegistry registry https://registry.npmjs.org/
+252 silly mapToRegistry data Result {
+252 silly mapToRegistry   raw: 'null-check',
+252 silly mapToRegistry   scope: null,
+252 silly mapToRegistry   name: 'null-check',
+252 silly mapToRegistry   rawSpec: '',
+252 silly mapToRegistry   spec: 'latest',
+252 silly mapToRegistry   type: 'tag' }
+253 silly mapToRegistry uri https://registry.npmjs.org/null-check
+254 verbose addNameRange registry:https://registry.npmjs.org/null-check not in flight; fetching
+255 verbose request uri https://registry.npmjs.org/null-check
+256 verbose request no auth needed
+257 info attempt registry request try #1 at 15:03:43
+258 http request GET https://registry.npmjs.org/null-check
+259 verbose readDependencies loading dependencies from /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/which/package.json
+260 silly prepareForInstallMany adding isexe@^1.1.1 from which dependencies
+261 verbose readDependencies loading dependencies from /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/which/package.json
+262 silly cache add args [ 'isexe@^1.1.1', null ]
+263 verbose cache add spec isexe@^1.1.1
+264 silly cache add parsed spec Result {
+264 silly cache add   raw: 'isexe@^1.1.1',
+264 silly cache add   scope: null,
+264 silly cache add   name: 'isexe',
+264 silly cache add   rawSpec: '^1.1.1',
+264 silly cache add   spec: '>=1.1.1 <2.0.0',
+264 silly cache add   type: 'range' }
+265 silly addNamed isexe@>=1.1.1 <2.0.0
+266 verbose addNamed ">=1.1.1 <2.0.0" is a valid semver range for isexe
+267 silly addNameRange { name: 'isexe', range: '>=1.1.1 <2.0.0', hasData: false }
+268 silly mapToRegistry name isexe
+269 silly mapToRegistry using default registry
+270 silly mapToRegistry registry https://registry.npmjs.org/
+271 silly mapToRegistry data Result {
+271 silly mapToRegistry   raw: 'isexe',
+271 silly mapToRegistry   scope: null,
+271 silly mapToRegistry   name: 'isexe',
+271 silly mapToRegistry   rawSpec: '',
+271 silly mapToRegistry   spec: 'latest',
+271 silly mapToRegistry   type: 'tag' }
+272 silly mapToRegistry uri https://registry.npmjs.org/isexe
+273 verbose addNameRange registry:https://registry.npmjs.org/isexe not in flight; fetching
+274 verbose request uri https://registry.npmjs.org/isexe
+275 verbose request no auth needed
+276 info attempt registry request try #1 at 15:03:44
+277 verbose etag "A2WFQOVCYSXLEGQ5B5D2A8KGT"
+278 http request GET https://registry.npmjs.org/isexe
+279 http 304 https://registry.npmjs.org/isexe
+280 verbose headers { date: 'Mon, 17 Oct 2016 07:03:44 GMT',
+280 verbose headers   via: '1.1 varnish',
+280 verbose headers   'cache-control': 'max-age=300',
+280 verbose headers   etag: '"A2WFQOVCYSXLEGQ5B5D2A8KGT"',
+280 verbose headers   age: '42',
+280 verbose headers   connection: 'keep-alive',
+280 verbose headers   'x-served-by': 'cache-lcy1124-LCY',
+280 verbose headers   'x-cache': 'HIT',
+280 verbose headers   'x-cache-hits': '2',
+280 verbose headers   'x-timer': 'S1476687824.155328,VS0,VE0',
+280 verbose headers   vary: 'Accept-Encoding' }
+281 silly get cb [ 304,
+281 silly get   { date: 'Mon, 17 Oct 2016 07:03:44 GMT',
+281 silly get     via: '1.1 varnish',
+281 silly get     'cache-control': 'max-age=300',
+281 silly get     etag: '"A2WFQOVCYSXLEGQ5B5D2A8KGT"',
+281 silly get     age: '42',
+281 silly get     connection: 'keep-alive',
+281 silly get     'x-served-by': 'cache-lcy1124-LCY',
+281 silly get     'x-cache': 'HIT',
+281 silly get     'x-cache-hits': '2',
+281 silly get     'x-timer': 'S1476687824.155328,VS0,VE0',
+281 silly get     vary: 'Accept-Encoding' } ]
+282 verbose etag https://registry.npmjs.org/isexe from cache
+283 verbose get saving isexe to /Users/duanhe/.npm/registry.npmjs.org/isexe/.cache.json
+284 verbose correctMkdir /Users/duanhe/.npm correctMkdir not in flight; initializing
+285 silly addNameRange number 2 { name: 'isexe', range: '>=1.1.1 <2.0.0', hasData: true }
+286 silly addNameRange versions [ 'isexe', [ '1.0.0', '1.0.1', '1.1.0', '1.1.1', '1.1.2' ] ]
+287 silly addNamed isexe@1.1.2
+288 verbose addNamed "1.1.2" is a plain semver version for isexe
+289 silly cache afterAdd isexe@1.1.2
+290 verbose afterAdd /Users/duanhe/.npm/isexe/1.1.2/package/package.json not in flight; writing
+291 verbose correctMkdir /Users/duanhe/.npm correctMkdir not in flight; initializing
+292 verbose afterAdd /Users/duanhe/.npm/isexe/1.1.2/package/package.json written
+293 silly install resolved [ { name: 'isexe',
+293 silly install resolved     version: '1.1.2',
+293 silly install resolved     description: 'Minimal module to check if a file is executable.',
+293 silly install resolved     main: 'index.js',
+293 silly install resolved     directories: { test: 'test' },
+293 silly install resolved     devDependencies: { mkdirp: '^0.5.1', rimraf: '^2.5.0', tap: '^5.1.2' },
+293 silly install resolved     scripts: { test: 'tap test/*.js --branches=100 --statements=100 --functions=100 --lines=100' },
+293 silly install resolved     author:
+293 silly install resolved      { name: 'Isaac Z. Schlueter',
+293 silly install resolved        email: 'i@izs.me',
+293 silly install resolved        url: 'http://blog.izs.me/' },
+293 silly install resolved     license: 'ISC',
+293 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/isaacs/isexe.git' },
+293 silly install resolved     keywords: [],
+293 silly install resolved     bugs: { url: 'https://github.com/isaacs/isexe/issues' },
+293 silly install resolved     homepage: 'https://github.com/isaacs/isexe#readme',
+293 silly install resolved     gitHead: '1882eed72c2ba152f4dd1336d857b0755ae306d9',
+293 silly install resolved     _id: 'isexe@1.1.2',
+293 silly install resolved     _shasum: '36f3e22e60750920f5e7241a476a8c6a42275ad0',
+293 silly install resolved     _from: 'isexe@>=1.1.1 <2.0.0',
+293 silly install resolved     _npmVersion: '3.7.0',
+293 silly install resolved     _nodeVersion: '4.0.0',
+293 silly install resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+293 silly install resolved     dist:
+293 silly install resolved      { shasum: '36f3e22e60750920f5e7241a476a8c6a42275ad0',
+293 silly install resolved        tarball: 'https://registry.npmjs.org/isexe/-/isexe-1.1.2.tgz' },
+293 silly install resolved     maintainers: [ [Object] ],
+293 silly install resolved     _npmOperationalInternal:
+293 silly install resolved      { host: 'packages-9-west.internal.npmjs.com',
+293 silly install resolved        tmp: 'tmp/isexe-1.1.2.tgz_1454992795963_0.7608721863944083' },
+293 silly install resolved     _resolved: 'https://registry.npmjs.org/isexe/-/isexe-1.1.2.tgz',
+293 silly install resolved     readme: 'ERROR: No README data found!' } ]
+294 info install isexe@1.1.2 into /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/which
+295 info installOne isexe@1.1.2
+296 verbose installOne of isexe to /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/which not in flight; installing
+297 verbose correctMkdir /Users/duanhe/.npm/_locks correctMkdir not in flight; initializing
+298 verbose lock using /Users/duanhe/.npm/_locks/isexe-db929ad67b0e17c6.lock for /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/which/node_modules/isexe
+299 silly install write writing isexe 1.1.2 to /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/which/node_modules/isexe
+300 verbose unbuild node_modules/karma-chrome-launcher/node_modules/which/node_modules/isexe
+301 silly gentlyRm /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/which/node_modules/isexe is being purged from base /Users/duanhe/nodeProj/blog
+302 verbose gentlyRm don't care about contents; nuking /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/which/node_modules/isexe
+303 verbose tar unpack /Users/duanhe/.npm/isexe/1.1.2/package.tgz
+304 verbose tar unpacking to /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/which/node_modules/isexe
+305 silly gentlyRm /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/which/node_modules/isexe is being purged
+306 verbose gentlyRm don't care about contents; nuking /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/which/node_modules/isexe
+307 silly gunzTarPerm modes [ '755', '644' ]
+308 silly gunzTarPerm extractEntry package.json
+309 silly gunzTarPerm extractEntry .npmignore
+310 silly gunzTarPerm extractEntry README.md
+311 silly gunzTarPerm extractEntry LICENSE
+312 silly gunzTarPerm extractEntry access.js
+313 silly gunzTarPerm extractEntry mode.js
+314 silly gunzTarPerm extractEntry windows.js
+315 silly gunzTarPerm extractEntry index.js
+316 silly gunzTarPerm extractEntry test/basic.js
+317 verbose write writing to /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/which/node_modules/isexe/package.json
+318 info preinstall isexe@1.1.2
+319 verbose readDependencies loading dependencies from /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/which/node_modules/isexe/package.json
+320 verbose readDependencies loading dependencies from /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/which/node_modules/isexe/package.json
+321 silly install resolved []
+322 verbose about to build /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/which/node_modules/isexe
+323 info build /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/which/node_modules/isexe
+324 info linkStuff isexe@1.1.2
+325 silly linkStuff isexe@1.1.2 has /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/which/node_modules as its parent node_modules
+326 verbose linkBins isexe@1.1.2
+327 verbose linkMans isexe@1.1.2
+328 verbose rebuildBundles isexe@1.1.2
+329 info install isexe@1.1.2
+330 info postinstall isexe@1.1.2
+331 verbose unlock done using /Users/duanhe/.npm/_locks/isexe-db929ad67b0e17c6.lock for /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/which/node_modules/isexe
+332 verbose about to build /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/which
+333 info build /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/which
+334 info linkStuff which@1.2.11
+335 silly linkStuff which@1.2.11 has /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules as its parent node_modules
+336 verbose linkBins which@1.2.11
+337 verbose link bins [ { which: './bin/which' },
+337 verbose link bins   '/Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/.bin',
+337 verbose link bins   false ]
+338 verbose linkMans which@1.2.11
+339 verbose rebuildBundles which@1.2.11
+340 verbose rebuildBundles [ 'isexe' ]
+341 silly gentlyRm /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/.bin/which is being purged
+342 verbose gentlyRm don't care about contents; nuking /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/.bin/which
+343 info install which@1.2.11
+344 info postinstall which@1.2.11
+345 verbose unlock done using /Users/duanhe/.npm/_locks/which-fb3bc38c46c20012.lock for /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/which
+346 http 200 https://registry.npmjs.org/null-check
+347 verbose headers { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+347 verbose headers   etag: '"BSJT0VFDBLK39RN3SMBH2DITC"',
+347 verbose headers   'content-type': 'application/json',
+347 verbose headers   'content-encoding': 'gzip',
+347 verbose headers   'cache-control': 'max-age=300',
+347 verbose headers   'content-length': '1183',
+347 verbose headers   'accept-ranges': 'bytes',
+347 verbose headers   date: 'Mon, 17 Oct 2016 07:03:44 GMT',
+347 verbose headers   via: '1.1 varnish',
+347 verbose headers   age: '162',
+347 verbose headers   connection: 'keep-alive',
+347 verbose headers   'x-served-by': 'cache-lcy1124-LCY',
+347 verbose headers   'x-cache': 'HIT',
+347 verbose headers   'x-cache-hits': '2',
+347 verbose headers   'x-timer': 'S1476687824.142657,VS0,VE0',
+347 verbose headers   vary: 'Accept-Encoding' }
+348 silly get cb [ 200,
+348 silly get   { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+348 silly get     etag: '"BSJT0VFDBLK39RN3SMBH2DITC"',
+348 silly get     'content-type': 'application/json',
+348 silly get     'content-encoding': 'gzip',
+348 silly get     'cache-control': 'max-age=300',
+348 silly get     'content-length': '1183',
+348 silly get     'accept-ranges': 'bytes',
+348 silly get     date: 'Mon, 17 Oct 2016 07:03:44 GMT',
+348 silly get     via: '1.1 varnish',
+348 silly get     age: '162',
+348 silly get     connection: 'keep-alive',
+348 silly get     'x-served-by': 'cache-lcy1124-LCY',
+348 silly get     'x-cache': 'HIT',
+348 silly get     'x-cache-hits': '2',
+348 silly get     'x-timer': 'S1476687824.142657,VS0,VE0',
+348 silly get     vary: 'Accept-Encoding' } ]
+349 verbose get saving null-check to /Users/duanhe/.npm/registry.npmjs.org/null-check/.cache.json
+350 verbose correctMkdir /Users/duanhe/.npm correctMkdir not in flight; initializing
+351 silly addNameRange number 2 { name: 'null-check', range: '>=1.0.0 <2.0.0', hasData: true }
+352 silly addNameRange versions [ 'null-check', [ '1.0.0', '2.0.0' ] ]
+353 silly addNamed null-check@1.0.0
+354 verbose addNamed "1.0.0" is a plain semver version for null-check
+355 silly mapToRegistry name null-check
+356 silly mapToRegistry using default registry
+357 silly mapToRegistry registry https://registry.npmjs.org/
+358 silly mapToRegistry data Result {
+358 silly mapToRegistry   raw: 'null-check',
+358 silly mapToRegistry   scope: null,
+358 silly mapToRegistry   name: 'null-check',
+358 silly mapToRegistry   rawSpec: '',
+358 silly mapToRegistry   spec: 'latest',
+358 silly mapToRegistry   type: 'tag' }
+359 silly mapToRegistry uri https://registry.npmjs.org/null-check
+360 verbose addRemoteTarball https://registry.npmjs.org/null-check/-/null-check-1.0.0.tgz not in flight; adding
+361 verbose addRemoteTarball [ 'https://registry.npmjs.org/null-check/-/null-check-1.0.0.tgz',
+361 verbose addRemoteTarball   '977dffd7176012b9ec30d2a39db5cf72a0439edd' ]
+362 info retry fetch attempt 1 at 15:05:35
+363 info attempt registry request try #1 at 15:05:35
+364 http fetch GET https://registry.npmjs.org/null-check/-/null-check-1.0.0.tgz
+365 http fetch 200 https://registry.npmjs.org/null-check/-/null-check-1.0.0.tgz
+366 silly fetchAndShaCheck shasum 977dffd7176012b9ec30d2a39db5cf72a0439edd
+367 verbose addTmpTarball /tmp/npm-12550-152b03c2/registry.npmjs.org/null-check/-/null-check-1.0.0.tgz not in flight; adding
+368 verbose addTmpTarball already have metadata; skipping unpack for null-check@1.0.0
+369 verbose correctMkdir /Users/duanhe/.npm correctMkdir not in flight; initializing
+370 silly cache afterAdd null-check@1.0.0
+371 verbose afterAdd /Users/duanhe/.npm/null-check/1.0.0/package/package.json not in flight; writing
+372 verbose correctMkdir /Users/duanhe/.npm correctMkdir not in flight; initializing
+373 verbose afterAdd /Users/duanhe/.npm/null-check/1.0.0/package/package.json written
+374 silly install resolved [ { name: 'null-check',
+374 silly install resolved     version: '1.0.0',
+374 silly install resolved     description: 'Ensure a path doesn\'t contain null bytes',
+374 silly install resolved     license: 'MIT',
+374 silly install resolved     repository:
+374 silly install resolved      { type: 'git',
+374 silly install resolved        url: 'https://github.com/sindresorhus/null-check' },
+374 silly install resolved     author:
+374 silly install resolved      { name: 'Sindre Sorhus',
+374 silly install resolved        email: 'sindresorhus@gmail.com',
+374 silly install resolved        url: 'sindresorhus.com' },
+374 silly install resolved     engines: { node: '>=0.10.0' },
+374 silly install resolved     scripts: { test: 'node test.js' },
+374 silly install resolved     files: [ 'index.js' ],
+374 silly install resolved     keywords:
+374 silly install resolved      [ 'built-in',
+374 silly install resolved        'core',
+374 silly install resolved        'ponyfill',
+374 silly install resolved        'polyfill',
+374 silly install resolved        'shim',
+374 silly install resolved        'fs',
+374 silly install resolved        'path',
+374 silly install resolved        'null',
+374 silly install resolved        'bytes',
+374 silly install resolved        'check' ],
+374 silly install resolved     devDependencies: { ava: '0.0.4' },
+374 silly install resolved     gitHead: 'bcdcbc68e4735aa5222a2c5575335041cd59ebaa',
+374 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/null-check/issues' },
+374 silly install resolved     homepage: 'https://github.com/sindresorhus/null-check',
+374 silly install resolved     _id: 'null-check@1.0.0',
+374 silly install resolved     _shasum: '977dffd7176012b9ec30d2a39db5cf72a0439edd',
+374 silly install resolved     _from: 'null-check@>=1.0.0 <2.0.0',
+374 silly install resolved     _npmVersion: '2.7.4',
+374 silly install resolved     _nodeVersion: '0.12.2',
+374 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+374 silly install resolved     dist:
+374 silly install resolved      { shasum: '977dffd7176012b9ec30d2a39db5cf72a0439edd',
+374 silly install resolved        tarball: 'https://registry.npmjs.org/null-check/-/null-check-1.0.0.tgz' },
+374 silly install resolved     maintainers: [ [Object] ],
+374 silly install resolved     directories: {},
+374 silly install resolved     _resolved: 'https://registry.npmjs.org/null-check/-/null-check-1.0.0.tgz' } ]
+375 info install null-check@1.0.0 into /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/fs-access
+376 info installOne null-check@1.0.0
+377 verbose installOne of null-check to /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/fs-access not in flight; installing
+378 verbose correctMkdir /Users/duanhe/.npm/_locks correctMkdir not in flight; initializing
+379 verbose lock using /Users/duanhe/.npm/_locks/null-check-df609062d727112b.lock for /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/fs-access/node_modules/null-check
+380 silly install write writing null-check 1.0.0 to /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/fs-access/node_modules/null-check
+381 verbose unbuild node_modules/karma-chrome-launcher/node_modules/fs-access/node_modules/null-check
+382 silly gentlyRm /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/fs-access/node_modules/null-check is being purged from base /Users/duanhe/nodeProj/blog
+383 verbose gentlyRm don't care about contents; nuking /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/fs-access/node_modules/null-check
+384 verbose tar unpack /Users/duanhe/.npm/null-check/1.0.0/package.tgz
+385 verbose tar unpacking to /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/fs-access/node_modules/null-check
+386 silly gentlyRm /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/fs-access/node_modules/null-check is being purged
+387 verbose gentlyRm don't care about contents; nuking /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/fs-access/node_modules/null-check
+388 silly gunzTarPerm modes [ '755', '644' ]
+389 silly gunzTarPerm extractEntry package.json
+390 silly gunzTarPerm extractEntry index.js
+391 silly gunzTarPerm extractEntry license
+392 silly gunzTarPerm extractEntry readme.md
+393 verbose write writing to /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/fs-access/node_modules/null-check/package.json
+394 info preinstall null-check@1.0.0
+395 verbose readDependencies loading dependencies from /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/fs-access/node_modules/null-check/package.json
+396 verbose readDependencies loading dependencies from /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/fs-access/node_modules/null-check/package.json
+397 silly install resolved []
+398 verbose about to build /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/fs-access/node_modules/null-check
+399 info build /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/fs-access/node_modules/null-check
+400 info linkStuff null-check@1.0.0
+401 silly linkStuff null-check@1.0.0 has /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/fs-access/node_modules as its parent node_modules
+402 verbose linkBins null-check@1.0.0
+403 verbose linkMans null-check@1.0.0
+404 verbose rebuildBundles null-check@1.0.0
+405 info install null-check@1.0.0
+406 info postinstall null-check@1.0.0
+407 verbose unlock done using /Users/duanhe/.npm/_locks/null-check-df609062d727112b.lock for /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/fs-access/node_modules/null-check
+408 verbose about to build /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/fs-access
+409 info build /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/fs-access
+410 info linkStuff fs-access@1.0.1
+411 silly linkStuff fs-access@1.0.1 has /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules as its parent node_modules
+412 verbose linkBins fs-access@1.0.1
+413 verbose linkMans fs-access@1.0.1
+414 verbose rebuildBundles fs-access@1.0.1
+415 verbose rebuildBundles [ 'null-check' ]
+416 info install fs-access@1.0.1
+417 info postinstall fs-access@1.0.1
+418 verbose unlock done using /Users/duanhe/.npm/_locks/fs-access-db0d8e429384b6be.lock for /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher/node_modules/fs-access
+419 verbose about to build /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher
+420 info build /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher
+421 info linkStuff karma-chrome-launcher@2.0.0
+422 silly linkStuff karma-chrome-launcher@2.0.0 has /Users/duanhe/nodeProj/blog/node_modules as its parent node_modules
+423 verbose linkBins karma-chrome-launcher@2.0.0
+424 verbose linkMans karma-chrome-launcher@2.0.0
+425 verbose rebuildBundles karma-chrome-launcher@2.0.0
+426 verbose rebuildBundles [ '.bin', 'fs-access', 'which' ]
+427 info install karma-chrome-launcher@2.0.0
+428 info postinstall karma-chrome-launcher@2.0.0
+429 verbose unlock done using /Users/duanhe/.npm/_locks/karma-chrome-launcher-f1ff82f760143156.lock for /Users/duanhe/nodeProj/blog/node_modules/karma-chrome-launcher
+430 verbose validateInstall loading /Users/duanhe/nodeProj/blog/package.json for validation
+431 verbose stack Error: write EPIPE
+431 verbose stack     at exports._errnoException (util.js:873:11)
+431 verbose stack     at WriteWrap.afterWrite (net.js:785:14)
+432 verbose cwd /Users/duanhe/nodeProj/blog/src
+433 error Darwin 15.6.0
+434 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "karma-chrome-launcher" "--save-dev"
+435 error node v4.4.7
+436 error npm  v2.15.8
+437 error code EPIPE
+438 error errno EPIPE
+439 error syscall write
+440 error write EPIPE
+441 error If you need help, you may report this error at:
+441 error     <https://github.com/npm/npm/issues>
+442 verbose exit [ 1, true ]
