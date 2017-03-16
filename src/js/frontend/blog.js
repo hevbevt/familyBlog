@@ -1,8 +1,7 @@
 /**
  * Created by duanhe on 16/7/17.
  */
-agGrid.initialiseAgGridWithAngular1(angular);
-var blog = angular.module('blog',['ui.router', 'ui.bootstrap','agGrid']);
+var blog = angular.module('blog',['ui.router', 'ui.bootstrap']);
 var router = function ($stateProvider, $urlRouterProvider) {
     $stateProvider.state('index', {
         url: '/',
@@ -16,10 +15,6 @@ var router = function ($stateProvider, $urlRouterProvider) {
         url:'login',
         controller: 'loginCtrl',
         templateUrl: '../partials/login.html'
-    }).state('index.grid', {
-        url:'grid',
-        templateUrl: '../partials/grid.html',
-        controller: 'gridCtrl'
     });
     $urlRouterProvider.otherwise('/');
 };
